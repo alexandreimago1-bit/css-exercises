@@ -8,13 +8,30 @@
     <title>Modal</title>
   </head>
   <body>
+    <!-- SO IN this part I created an Icon and text container while 
+     also utilizing flexbox for layout to both align them in a row.
+     I also creaded a container for the header and close button to 
+     align them properly, and also created a div for the buttons to 
+     also make sure they are horizontally aligned.-->
     <div class="modal">
-      <div class="icon">!</div>
-      <div class="header">Are you sure you want to do that?</div>
-      <button class="close-button">✖</button>
-      <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-      <button class="continue">Continue</button>
-      <button class="cancel">Cancel</button>
+      <div class="icon-container"> 
+        <div class="icon">!</div>
+      </div>
+      <div class="right">
+        <div class="top">
+          <div class="header">Are you sure you want to do that?</div>
+          <button class="close-button">✖</button>
+        </div>
+        
+        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
+        <div class="btns-container">
+          <button class="continue">Continue</button>
+        <button class="cancel">Cancel</button>
+        </div>
+        
+      </div>
+
+     
     </div>
   </body>
 </html>
