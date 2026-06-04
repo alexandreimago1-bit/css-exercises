@@ -12,8 +12,15 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
+.links-container {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+}
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -45,4 +52,15 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.left-side{
+  display:flex;
+  gap:16px;
+}
+.right-side{
+  display:flex;
+  gap:16px;
 }
